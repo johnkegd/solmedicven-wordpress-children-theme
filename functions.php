@@ -1,6 +1,6 @@
 <?php
 
-/**s
+/**
  * functions.php
  * @package WordPress
  * @subpackage Machic

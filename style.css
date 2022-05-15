@@ -1,13 +1,38 @@
 /*
 Theme Name:    Solmedic Theme Child
- Theme URI:    https://github.com/johnkegd/solmedic-theme
+ Theme URI:    https://github.com/johnkegd/solmedic-theme-child
  Description:  Soluciones medicas Venezuela - tienda de equipos medicos
- Author:       KlbTheme
- Author URI:   http://themeforest.net/user/KlbTheme
- Template:     solmedic-theme
- Version:      1.1
+ Author:       Johnkegd
+ Author URI:   https://github.com/johnkegd/
+ Template:     machic
+ Version:      1.0.8
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  solmedic-theme-child
 */
+
+
+.elementor-widget-machic-category-banner.solmedicven-category-banner .product-category-detail {
+  background-image: linear-gradient(170deg, #FFFFFF 0%, #2cbfe8 100%);
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-radius: 4px 4px 4px 70px;
+}
+
+.elementor-widget-machic-category-banner.solmedicven-category-banner .product-category-detail .category-banner {
+background-color:transparent;
+
+}
+
+.elementor-widget-machic-category-banner.solmedicven-category-banner .product-category-detail .categories-list {
+border:none;
+}
+
+.before-shop-loop .filter-desktop-button {
+  background-image: linear-gradient(45deg, white 0%, #2cbfe8 100%);
+  border-style: solid;
+  border-width: 0;
+  border-radius: 4px;
+  padding: 0px 10px;
+}

@@ -1,1 +1,2 @@
 *.jpg[[:space:]]*.png[[:space:]]*.mp4[[:space:]]*.gif[[:space:]]*.jpeg[[:space:]]*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.jpg[[:space:]]*.png[[:space:]]*.mp4[[:space:]]*.gif[[:space:]]*.jpeg[[:space:]]*.mp3[[:space:]]*.zip filter=lfs diff=lfs merge=lfs -text

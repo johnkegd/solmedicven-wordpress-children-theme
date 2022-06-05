@@ -14,7 +14,7 @@ Theme Name:    Solmedic Theme Child
 
 
 .elementor-widget-machic-category-banner.solmedicven-category-banner .product-category-detail {
-  background-image: linear-gradient(170deg, #FFFFFF 0%, #2cbfe8 100%);
+  background-image: linear-gradient(170deg, #FFFFFF 0%, var(--color-secondary) 100%);
   border-style: solid;
   border-width: 0px 0px 0px 0px;
   border-radius: 4px 4px 4px 70px;
@@ -30,7 +30,7 @@ border:none;
 }
 
 .before-shop-loop .filter-desktop-button {
-  background-image: linear-gradient(45deg, white 0%, #2cbfe8 100%);
+  background-image: linear-gradient(45deg, white 0%, var(--color-secondary) 100%);
   border-style: solid;
   border-width: 0;
   border-radius: 4px;
@@ -39,9 +39,9 @@ border:none;
 
 
 span.swiper-pagination-bullet-active {
-	background-color:var(--color-theme-danger);
+	background-color:var(--color-shop-button-active);
 }
 
 .hover-slider-indicator-dot.active {
-	background-color:var(--color-theme-danger);
+	background-color:var(--color-shop-button-active);
 }

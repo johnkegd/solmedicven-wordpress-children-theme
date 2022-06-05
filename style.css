@@ -36,3 +36,12 @@ border:none;
   border-radius: 4px;
   padding: 0px 10px;
 }
+
+
+span.swiper-pagination-bullet-active {
+	background-color:var(--color-theme-danger);
+}
+
+.hover-slider-indicator-dot.active {
+	background-color:var(--color-theme-danger);
+}

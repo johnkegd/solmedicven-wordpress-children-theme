@@ -65,3 +65,36 @@ span.swiper-pagination-bullet-active {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
 }
+
+
+/****** headers and sidebars ***/
+[class^=johnkegd-icon-]{
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 1em;
+  height: 1em;
+}
+
+.johnkegd-icon-cirugia-general {
+  background-image: url(https://test.solmedicven.com/wp-content/uploads/2022/06/cirugia.svg);
+}
+
+.johnkegd-icon-traumatologia {
+  background-image: url(https://test.solmedicven.com/wp-content/uploads/2022/06/traumatologia.svg);
+}
+.johnkegd-icon-gastroenterologia {
+  background-image: url(https://test.solmedicven.com/wp-content/uploads/2022/06/gastroenterologia.svg);
+}
+.johnkegd-icon-ginecologia {
+  background-image: url(https://test.solmedicven.com/wp-content/uploads/2022/06/ginecologia.svg);
+}
+.johnkegd-icon-neurologia {
+  background-image: url(https://test.solmedicven.com/wp-content/uploads/2022/06/neurologia.svg);
+}
+.johnkegd-icon-pedriatico {
+  background-image: url(https://test.solmedicven.com/wp-content/uploads/2022/06/pedriatico.svg);
+}
+.johnkegd-icon-pulmonar {
+  background-image: url(https://test.solmedicven.com/wp-content/uploads/2022/06/pulmonar.svg);
+}
+

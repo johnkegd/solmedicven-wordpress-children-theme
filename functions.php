@@ -15,12 +15,6 @@ function machic_child_enqueue_styles()
         array('machic-style'),
         wp_get_theme()->get('Version')
     );
-    wp_enqueue_style(
-        'machic-child-style',
-        get_stylesheet_directory_uri() . '/custom.css',
-        array('machic-style'),
-        wp_get_theme()->get('Version')
-    );
 }
 
 add_action('wp_enqueue_scripts', 'machic_child_enqueue_styles', 99);

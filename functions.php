@@ -16,5 +16,16 @@ function machic_child_enqueue_styles()
         wp_get_theme()->get('Version')
     );
 }
+function custom_libraries_activations_scripts()
+{
+    wp_enqueue_script(
+        'custom-libraries-init-scripts',
+        get_stylesheet_directory_uri() . '/js/custom-libraries-init.js',
+        array(),
+        false,
+        true
+    );
+}
 
 add_action('wp_enqueue_scripts', 'machic_child_enqueue_styles', 99);
+add_action('wp_enqueue_scripts', 'custom_libraries_activations_scripts');

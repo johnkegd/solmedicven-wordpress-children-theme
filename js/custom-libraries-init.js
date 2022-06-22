@@ -3,5 +3,7 @@ window.johnkegd.com = window.johnkegd.com || {};
 window.johnkegd.com.initializator = window.johnkegd.com.initializator || {};
 
 (function (context) {
-  console.log("hallo von custom script");
+  document.addEventListener("DOMContentLoaded", function () {
+    console.log("dependency", window.Swiper);
+  });
 })(window.johnkegd.com.initializator);

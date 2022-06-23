@@ -100,7 +100,7 @@ span.swiper-pagination-bullet-active {
 
 .headerRibbon {
   position: absolute;
-  top: 0;
+  top: 70px;
   left: 0;
 }
 
@@ -108,7 +108,7 @@ span.swiper-pagination-bullet-active {
   width: 165px;
   position: absolute;
   top: 0px;
-  left: 98px;
+  left: 3px;
   font-size: 1.2em;
   text-align: center;
   line-height: 30px;
@@ -117,5 +117,9 @@ span.swiper-pagination-bullet-active {
   -webkit-transform: rotate(0deg);
   box-shadow: 0 0 8px rgb(0 0 0 / 50%);
   background: var(--color-theme-danger);
-  border-radius: 4px 4px 4px 40px;
+  border-radius: 0 40px 0 0;
+}
+
+.shop-banner-bottom.equipos.swiper-container:before {
+  position: unset;
 }

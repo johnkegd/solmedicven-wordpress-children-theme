@@ -27,7 +27,7 @@
 
 <?php $shop_banner = get_theme_mod('machic_shop_banner_module'); ?>
 <?php if ($shop_banner) { ?>
-    <div class="row mt-0 d-mt-20 shop-banner-bottom swiper-container">
+    <div class="row mt-0 d-mt-20 shop-banner-bottom swiper-container equipos">
         <div class="swiper-wrapper">
             <?php foreach ($shop_banner as $s) { ?>
                 <div class="col col-12 col-lg-4 mt-10 d-mt-0 swiper-slide">

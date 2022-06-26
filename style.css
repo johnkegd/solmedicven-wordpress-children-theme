@@ -143,8 +143,9 @@ span.swiper-pagination-bullet-active {
   color:var(--color-primary);
 }
 
-.shop-banner-bottom .swiper-button-prev::after, .shop-banner-bottom .swiper-button-prev::after {
-  font-size: 35px !important;
+.shop-banner-bottom .swiper-button-next::after, .shop-banner-bottom .swiper-button-prev::after {
+  font-size: 1.625rem !important;
+  color:white;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -157,4 +158,11 @@ span.swiper-pagination-bullet-active {
 .swiper-button-next:hover, .swiper-button-prev:hover {
   background-color:var(--color-primary);
   color:white;
+}
+
+/********** media queries **********/
+@media(max-width: 640px) {
+  .banner.dark.align-center.price-banner {
+      height:280px;
+  }
 }

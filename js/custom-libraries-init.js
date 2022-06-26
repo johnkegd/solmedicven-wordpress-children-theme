@@ -27,18 +27,18 @@ window.johnkegd.com.initializator = window.johnkegd.com.initializator || {};
             slidesPerView: 1,
           },
           640: {
-            slidesPerView: 2,
+            slidesPerView: 1,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 1,
           },
           1024: {
-            slidesPerView: 3,
+            slidesPerView: 2,
           },
           1200: {
             slidesPerView: 3,
           },
-          1280: {
+          1780: {
             slidesPerView: 4,
           },
         },

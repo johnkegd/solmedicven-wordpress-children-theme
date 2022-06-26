@@ -153,6 +153,13 @@
             </div><!-- column -->
             <div class="column center">
                 <div class="site-brand">
+                    <?php if (strpos(home_url(), "test.solmedicven") !== false) { ?>
+                        <a class="headerRibbon" href="<?php echo esc_url(home_url("/")); ?>">
+                            <div class="corner-ribbon test-ribbon">
+                                TEST
+                            </div>
+                        </a>
+                    <?php } ?>
                     <a href="<?php echo esc_url(home_url("/")); ?>" title="<?php bloginfo("name"); ?>">
                         <?php if (get_theme_mod('machic_logo')) { ?>
                             <img src="<?php echo esc_url(wp_get_attachment_url(get_theme_mod('machic_logo'))); ?>" alt="<?php bloginfo("name"); ?>">

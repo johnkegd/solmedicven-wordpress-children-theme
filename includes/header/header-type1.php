@@ -1,10 +1,15 @@
 <header id="masthead" class="site-header border-enable header-type1">
     <div class="header-desktop hide-mobile">
-
+        <?php if (strpos(home_url(), "test.solmedicven") !== false) { ?>
+            <a class="headerRibbon" href="<?php echo esc_url(home_url("/")); ?>">
+                <div class="corner-ribbon test-ribbon">
+                    TEST
+                </div>
+            </a>
+        <?php } ?>
         <div class="header-top dark border-disable">
             <div class="container">
                 <div class="header-wrapper">
-
                     <div class="column align-center left">
                         <nav class="site-menu horizontal">
                             <?php
@@ -49,13 +54,6 @@
                 <div class="header-wrapper">
 
                     <div class="column align-center left">
-                        <?php if (strpos(home_url(), "test.solmedicven") !== false) { ?>
-                            <a class="headerRibbon" href="<?php echo esc_url(home_url("/")); ?>">
-                                <div class="corner-ribbon test-ribbon">
-                                    TEST
-                                </div>
-                            </a>
-                        <?php } ?>
                         <div class="site-brand">
                             <a href="<?php echo esc_url(home_url("/")); ?>" title="<?php bloginfo("name"); ?>">
                                 <?php if (get_theme_mod('machic_logo')) { ?>

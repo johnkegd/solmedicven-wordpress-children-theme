@@ -29,9 +29,6 @@ window.johnkegd.com.initializator = window.johnkegd.com.initializator || {};
           640: {
             slidesPerView: 1,
           },
-          768: {
-            slidesPerView: 1,
-          },
           1024: {
             slidesPerView: 2,
           },

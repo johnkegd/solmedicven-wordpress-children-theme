@@ -104,7 +104,7 @@ span.swiper-pagination-bullet-active {
   left: 0;
 }
 
-.corner-ribbon.test-ribbon {
+header .corner-ribbon.test-ribbon {
   width: 165px;
   position: absolute;
   top: 0px;
@@ -167,14 +167,17 @@ span.swiper-pagination-bullet-active {
 
 /****** aside mobile menu *****/
 .site-offcanvas .site-offcanvas-header .headerRibbon {
-  left: -3px;
+  position: absolute;
+  top: 58px;
 }
 
 .site-offcanvas .site-offcanvas-header .corner-ribbon.test-ribbon {
-  left: -3px;
-  top:0px;
-  left: 0px;
   width: 100px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFF;
+  background: var(--color-theme-danger);
+  border-radius: 0 0px 4px 4px;
 }
 
 

@@ -120,6 +120,41 @@ span.swiper-pagination-bullet-active {
   border-radius: 0 40px 0 0;
 }
 
+/****** shop banner - slider swiper ***/
+
+.shop-banner-top {
+  background-color: #F7F8F9;
+}
+
+.shop-banner-top .module-banner-text .banner-inner .banner-price span {
+  color: var(--color-theme-danger) !important;
+}
+
 .shop-banner-bottom.equipos.swiper-container:before {
   position: unset;
+}
+
+
+.shop-banner-bottom .banner.dark {
+  background-color: #F7F8F9;
+}
+
+.shop-banner-bottom .swiper-button-prev, .shop-banner-bottom .swiper-button-prev {
+  color:var(--color-primary);
+}
+
+.shop-banner-bottom .swiper-button-prev::after, .shop-banner-bottom .swiper-button-prev::after {
+  font-size: 35px !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  border: 0.7px solid white;
+  border-radius:25px;
+  width:2.125rem;
+  background-color: rgb(54 141 217 / 50%);
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  background-color:var(--color-primary);
+  color:white;
 }

@@ -3,7 +3,7 @@
         <div class="col">
 
             <div class="site-module module-banner-text">
-                <div class="banner-wrapper" style="background-color: #f5f5f7;">
+                <div class="banner-wrapper">
                     <div class="banner-inner">
                         <h4 class="entry-title"><?php echo machic_sanitize_data(get_theme_mod('machic_shop_top_banner_title')); ?></h4>
                         <div class="banner-details">

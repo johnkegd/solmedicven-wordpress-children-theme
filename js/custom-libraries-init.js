@@ -11,7 +11,7 @@ window.johnkegd.com.initializator = window.johnkegd.com.initializator || {};
         // Optional parameters
         direction: "horizontal",
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 14,
         loop: true,
         // Navigation arrows
         navigation: {
@@ -39,7 +39,7 @@ window.johnkegd.com.initializator = window.johnkegd.com.initializator || {};
             slidesPerView: 3,
           },
           1280: {
-            slidesPerView: 3,
+            slidesPerView: 4,
           },
         },
       });

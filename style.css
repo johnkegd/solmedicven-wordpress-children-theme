@@ -180,6 +180,19 @@ header .corner-ribbon.test-ribbon {
   border-radius: 0 0px 4px 4px;
 }
 
+/*
+ ************************
+ * landing
+ ************************
+ */
+
+ .swiper-wrapper .banner {
+  min-height: 465px;
+}
+
+.banner {
+  min-height: 210px;
+}
 
 
 /********** media queries **********/

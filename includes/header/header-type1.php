@@ -49,7 +49,7 @@
                 <div class="header-wrapper">
 
                     <div class="column align-center left">
-                        <?php if (strpos(home_url(), "test.solmedicven") !== false) { ?>
+                        <?php if (strpos(home_url(), "test") !== false) { ?>
                             <a class="headerRibbon" href="<?php echo esc_url(home_url("/")); ?>">
                                 <div class="corner-ribbon test-ribbon">
                                     TEST
@@ -141,7 +141,7 @@
     </div><!-- header-mobile-switcher -->
 
     <div class="header-mobile hide-desktop">
-        <?php if (strpos(home_url(), "test.solmedicven") !== false) { ?>
+        <?php if (strpos(home_url(), "test") !== false) { ?>
             <a class="headerRibbon" href="<?php echo esc_url(home_url("/")); ?>">
                 <div class="corner-ribbon test-ribbon">
                     TEST

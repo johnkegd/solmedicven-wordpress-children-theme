@@ -12,6 +12,10 @@ Theme Name:    Solmedic Theme Child
  Text Domain:  solmedic-theme-child
 */
 
+:root {
+  --barnner-border-radius-size:6px;
+}
+
 
 .elementor-widget-machic-category-banner.solmedicven-category-banner .product-category-detail {
   background-image: linear-gradient(170deg, #FFFFFF 0%, var(--color-secondary) 100%);
@@ -187,7 +191,7 @@ header .corner-ribbon.test-ribbon {
  */
 
  .swiper-wrapper .banner {
-  min-height: 465px;
+  min-height: 240px;
 }
 
 .banner {
@@ -195,9 +199,18 @@ header .corner-ribbon.test-ribbon {
 }
 
 
-/********** media queries **********/
-@media(max-width: 768px) {
-  .banner.dark.align-center.price-banner {
-      height:280px;
-  }
+.site-header .header-nav .site-menu .menu > .menu-item.current-menu-item > a {
+  background-color:var(--color-link);
+  color:white !important;
+  border-top-left-radius: var(--barnner-border-radius-size);
+  border-top-right-radius: var(--barnner-border-radius-size);
+}
+
+
+.iconboxes-widget {
+  border-radius: var(--barnner-border-radius-size);
+}
+
+.elementor-widget-machic-banner-box  .banner-image img {
+  border-radius: var(--barnner-border-radius-size);
 }

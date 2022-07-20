@@ -214,3 +214,7 @@ header .corner-ribbon.test-ribbon {
 .elementor-widget-machic-banner-box  .banner-image img {
   border-radius: var(--barnner-border-radius-size);
 }
+
+.elementor-widget-machic-banner-box .banner.bordered {
+  border-radius: var(--barnner-border-radius-size);
+}

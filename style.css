@@ -218,3 +218,14 @@ header .corner-ribbon.test-ribbon {
 .elementor-widget-machic-banner-box .banner.bordered {
   border-radius: var(--barnner-border-radius-size);
 }
+
+.site-header .header-nav .site-menu .menu > .menu-item.current-menu-item:before {
+  background: linear-gradient(180deg, var(--color-link), transparent);
+  width: 100%;
+  height: 38px;
+  content:" ";
+  position: absolute;
+  top: 18px;
+  border-top-left-radius: var(--barnner-border-radius-size);
+  border-top-right-radius: var(--barnner-border-radius-size);
+}

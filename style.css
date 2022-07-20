@@ -200,10 +200,7 @@ header .corner-ribbon.test-ribbon {
 
 
 .site-header .header-nav .site-menu .menu > .menu-item.current-menu-item > a {
-  background-color:var(--color-link);
   color:white !important;
-  border-top-left-radius: var(--barnner-border-radius-size);
-  border-top-right-radius: var(--barnner-border-radius-size);
 }
 
 

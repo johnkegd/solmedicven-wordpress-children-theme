@@ -8,12 +8,7 @@
 
 function machic_child_enqueue_styles()
 {
-    wp_enqueue_style(
-        'machic-child-style',
-        get_stylesheet_directory_uri() . '/style.css',
-        array('machic-style'),
-        wp_get_theme()->get('Version')
-    );
+    wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
 }
 function custom_libraries_activations_scripts()
 {

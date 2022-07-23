@@ -219,10 +219,23 @@ header .corner-ribbon.test-ribbon {
 .site-header .header-nav .site-menu .menu > .menu-item.current-menu-item:before {
   background: linear-gradient(180deg, var(--color-link), transparent);
   width: 100%;
-  height: 38px;
+  height: 45px;
   content:" ";
   position: absolute;
-  top: 18px;
+  top: 10px;
   border-top-left-radius: var(--barnner-border-radius-size);
   border-top-right-radius: var(--barnner-border-radius-size);
+}
+
+.badge.super {
+  background-color:var(--color-theme-danger);
+}
+
+.module-banner-text .banner-inner .entry-title strong {
+  background-color:var(--color-theme-danger);
+  color:white;
+}
+
+.entry-button a {
+  border:none !important;
 }

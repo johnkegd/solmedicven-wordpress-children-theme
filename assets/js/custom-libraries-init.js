@@ -44,6 +44,7 @@ window.johnkegd.com.initializator = window.johnkegd.com.initializator || {};
         },
       });
     }
+    window.johnkegd.com.customizator.initCustomizations();
   });
 
   context.getSwiperInstance = function () {

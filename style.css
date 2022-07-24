@@ -422,3 +422,14 @@ header .corner-ribbon.test-ribbon {
   margin-left: -1em;
   color: rgb(33, 44, 83);
 }
+
+
+/********
+*
+* Banners in services
+*
+********/
+
+.module-title .entry-content {
+  max-width: unset !important;
+}

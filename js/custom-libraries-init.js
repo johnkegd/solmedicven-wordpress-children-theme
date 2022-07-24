@@ -44,7 +44,7 @@ window.johnkegd.com.initializator = window.johnkegd.com.initializator || {};
         },
       });
     }
-    initCustomizations();
+    context.initCustomizations();
   });
 
   context.getSwiperInstance = function () {
@@ -56,7 +56,7 @@ window.johnkegd.com.initializator = window.johnkegd.com.initializator || {};
     const close = document.querySelector(".site-offcanvas-close");
 
     document.addEventListener("click", function (ev) {
-      mobileMenuAutoCloseHandler.bind(ev.target, overlay, close);
+      mobileMenuAutoCloseHandler.bind(ev.target, overlay, close).call();
     });
   };
 

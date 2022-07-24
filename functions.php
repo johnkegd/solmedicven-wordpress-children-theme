@@ -19,13 +19,6 @@ function custom_libraries_activations_scripts()
         false,
         true
     );
-    wp_enqueue_script(
-        'custom-libraries-init-scripts',
-        get_stylesheet_directory_uri() . '/js/custom-machic.js',
-        array(),
-        false,
-        true
-    );
 }
 
 add_action('wp_enqueue_scripts', 'machic_child_enqueue_styles', 99);

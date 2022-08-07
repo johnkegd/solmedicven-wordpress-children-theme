@@ -214,9 +214,12 @@ header .corner-ribbon.test-ribbon {
 }
 
 
-
-
-
+.disabled * {
+  pointer-events:
+  none !important;
+  color: var(--color-text-light) !important;
+  opacity: 0.3;
+}
 
 
 /****

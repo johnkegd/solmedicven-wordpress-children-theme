@@ -229,9 +229,9 @@ header .corner-ribbon.test-ribbon {
 @font-face {
   font-family: 'iconos-categora';
   src:
-  url('https://cdn.solmedicven.com/assets/fonts/categora/iconos-categora.ttf?dsonsa') format('truetype'),
-  url('https://cdn.solmedicven.com/assets/fonts/categora/iconos-categora.woff?dsonsa') format('woff'),
-  url('https://cdn.solmedicven.com/assets/fonts/categora/iconos-categora.svg?dsonsa#iconos-categora') format('svg');
+  url('/assets/fonts/categora/iconos-categora.ttf?dsonsa') format('truetype'),
+  url('/assets/fonts/categora/iconos-categora.woff?dsonsa') format('woff'),
+  url('/assets/fonts/categora/iconos-categora.svg?dsonsa#iconos-categora') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

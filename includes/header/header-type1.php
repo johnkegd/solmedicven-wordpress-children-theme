@@ -102,7 +102,8 @@
                                 'menu_id' => '',
                                 'menu_class' => 'menu',
                                 'echo' => true,
-                                "walker" => new machic_main_walker(),
+                                //"walker" => new machic_main_walker(),
+                                "walker" => '',
                                 'depth' => 0
                             ));
                             ?>

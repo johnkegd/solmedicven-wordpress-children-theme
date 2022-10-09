@@ -6,7 +6,7 @@
 		<div class="site-departments-wrapper">
 			<a href="#" class="all-categories">
 				<div class="departments-icon"><i class="klbth-icon-menu"></i></div>
-				<div class="departments-text"><?php esc_html_e('Aplicaciones / Estudios', 'machic'); ?></div>
+				<div class="departments-text"><?php esc_html_e('All Departments', 'machic'); ?></div>
 				<div class="departments-arrow"><i class="klbth-icon-nav-arrow-down"></i></div>
 			</a>
 

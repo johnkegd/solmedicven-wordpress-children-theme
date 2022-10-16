@@ -170,10 +170,6 @@ aside.site-offcanvas .klb-menu li:focus {
     color:white;
 }
 
-aside.site-offcanvas .klb-menu li:hover {
-    color:var(--color-primary);
-}
-
 /*
  ************************
  * landing

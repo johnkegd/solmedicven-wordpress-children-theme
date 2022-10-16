@@ -153,6 +153,27 @@ header .corner-ribbon.test-ribbon {
   border-radius: 0 0px 4px 4px;
 }
 
+aside.site-offcanvas .klb-menu li {
+  background-color: #f7f8f9;
+  margin: 5px 0px;
+  padding-left: 10px; 
+  border-radius: 2px;
+}
+
+aside.site-offcanvas .klb-menu li:active {
+    background:var(--color-primary);
+    color:white;
+}
+
+aside.site-offcanvas .klb-menu li:focus {
+    background:var(--color-secondary);
+    color:white;
+}
+
+aside.site-offcanvas .klb-menu li:hover {
+    color:var(--color-primary);
+}
+
 /*
  ************************
  * landing
@@ -215,8 +236,7 @@ header .corner-ribbon.test-ribbon {
 
 
 .disabled * {
-  pointer-events:
-  none !important;
+  pointer-events:none !important;
   color: var(--color-text-light) !important;
   opacity: 0.3;
 }
@@ -286,4 +306,20 @@ header .corner-ribbon.test-ribbon {
 section .elementor-widget-container p {
   font-size: 14px;
   line-height: 24px;
+}
+
+
+/********
+*
+* single-product
+*
+********/
+
+.single-product-wrapper .woocommerce-tabs .woocommerce-Tabs-panel--description > h2 {
+  display: block !important;
+}
+
+
+.remark-important {
+  color:var(--color-theme-danger);
 }

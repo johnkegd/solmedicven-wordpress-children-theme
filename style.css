@@ -13,7 +13,7 @@ Theme Name:    Solmedic Theme Child
 */
 
 :root {
-  --barnner-border-radius-size:6px;
+  --barnner-border-radius-size: 6px;
 }
 
 
@@ -25,12 +25,12 @@ Theme Name:    Solmedic Theme Child
 }
 
 .elementor-widget-machic-category-banner.solmedicven-category-banner .product-category-detail .category-banner {
-background-color:transparent;
+  background-color: transparent;
 
 }
 
 .elementor-widget-machic-category-banner.solmedicven-category-banner .product-category-detail .categories-list {
-border:none;
+  border: none;
 }
 
 .before-shop-loop .filter-desktop-button {
@@ -43,11 +43,11 @@ border:none;
 
 
 span.swiper-pagination-bullet-active {
-	background-color:var(--color-shop-button-active);
+  background-color: var(--color-shop-button-active);
 }
 
 .hover-slider-indicator-dot.active {
-	background-color:var(--color-shop-button-active);
+  background-color: var(--color-shop-button-active);
 }
 
 
@@ -58,11 +58,11 @@ span.swiper-pagination-bullet-active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   color: #fff;
   background-color: var(--color-shop-button-active);
   border-bottom: 1px solid #e5e8ef;
@@ -116,25 +116,29 @@ header .corner-ribbon.test-ribbon {
   background-color: #F7F8F9;
 }
 
-.shop-banner-bottom .swiper-button-prev, .shop-banner-bottom .swiper-button-prev {
-  color:var(--color-primary);
+.shop-banner-bottom .swiper-button-prev,
+.shop-banner-bottom .swiper-button-prev {
+  color: var(--color-primary);
 }
 
-.shop-banner-bottom .swiper-button-next::after, .shop-banner-bottom .swiper-button-prev::after {
+.shop-banner-bottom .swiper-button-next::after,
+.shop-banner-bottom .swiper-button-prev::after {
   font-size: 1.625rem !important;
-  color:white;
+  color: white;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   border: 0.7px solid white;
-  border-radius:25px;
-  width:2.125rem;
+  border-radius: 25px;
+  width: 2.125rem;
   background-color: rgb(54 141 217 / 50%);
 }
 
-.swiper-button-next:hover, .swiper-button-prev:hover {
-  background-color:var(--color-primary);
-  color:white;
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: var(--color-primary);
+  color: white;
 }
 
 
@@ -156,18 +160,18 @@ header .corner-ribbon.test-ribbon {
 aside.site-offcanvas .klb-menu li {
   background-color: #f7f8f9;
   margin: 5px 0px;
-  padding-left: 10px; 
+  padding-left: 10px;
   border-radius: 2px;
 }
 
 aside.site-offcanvas .klb-menu li:active {
-    background:var(--color-primary);
-    color:white;
+  background: var(--color-primary);
+  color: white;
 }
 
 aside.site-offcanvas .klb-menu li:focus {
-    background:var(--color-secondary);
-    color:white;
+  background: var(--color-secondary);
+  color: white;
 }
 
 /*
@@ -176,7 +180,7 @@ aside.site-offcanvas .klb-menu li:focus {
  ************************
  */
 
- .swiper-wrapper .banner {
+.swiper-wrapper .banner {
   min-height: 240px;
 }
 
@@ -185,8 +189,8 @@ aside.site-offcanvas .klb-menu li:focus {
 }
 
 
-.site-header .header-nav .site-menu .menu > .menu-item.current-menu-item > a {
-  color:white !important;
+.site-header .header-nav .site-menu .menu>.menu-item.current-menu-item>a {
+  color: white !important;
 }
 
 
@@ -194,7 +198,7 @@ aside.site-offcanvas .klb-menu li:focus {
   border-radius: var(--barnner-border-radius-size);
 }
 
-.elementor-widget-machic-banner-box  .banner-image img {
+.elementor-widget-machic-banner-box .banner-image img {
   border-radius: var(--barnner-border-radius-size);
 }
 
@@ -202,11 +206,11 @@ aside.site-offcanvas .klb-menu li:focus {
   border-radius: var(--barnner-border-radius-size);
 }
 
-.site-header .header-nav .site-menu .menu > .menu-item.current-menu-item:before {
+.site-header .header-nav .site-menu .menu>.menu-item.current-menu-item:before {
   background: var(--color-link);
   width: 100%;
   height: 45px;
-  content:" ";
+  content: " ";
   position: absolute;
   top: 10px;
   border-top-left-radius: var(--barnner-border-radius-size);
@@ -214,16 +218,16 @@ aside.site-offcanvas .klb-menu li:focus {
 }
 
 .badge.super {
-  background-color:var(--color-theme-danger);
+  background-color: var(--color-theme-danger);
 }
 
 .module-banner-text .banner-inner .entry-title strong {
-  background-color:var(--color-theme-danger);
-  color:white;
+  background-color: var(--color-theme-danger);
+  color: white;
 }
 
 .entry-button a {
-  border:none !important;
+  border: none !important;
 }
 
 .mobile-bottom-menu {
@@ -232,7 +236,7 @@ aside.site-offcanvas .klb-menu li:focus {
 
 
 .disabled * {
-  pointer-events:none !important;
+  pointer-events: none !important;
   color: var(--color-text-light) !important;
   opacity: 0.3;
 }
@@ -245,15 +249,16 @@ aside.site-offcanvas .klb-menu li:focus {
 @font-face {
   font-family: 'iconos-categora';
   src:
-  url('/assets/fonts/categora/iconos-categora.ttf?dsonsa') format('truetype'),
-  url('/assets/fonts/categora/iconos-categora.woff?dsonsa') format('woff'),
-  url('/assets/fonts/categora/iconos-categora.svg?dsonsa#iconos-categora') format('svg');
+    url('/assets/fonts/categora/iconos-categora.ttf?dsonsa') format('truetype'),
+    url('/assets/fonts/categora/iconos-categora.woff?dsonsa') format('woff'),
+    url('/assets/fonts/categora/iconos-categora.svg?dsonsa#iconos-categora') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-solmedicven-"], [class*=" icon-solmedicven-"] {
+[class^="icon-solmedicven-"],
+[class*=" icon-solmedicven-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'iconos-categora' !important;
   speak: never;
@@ -271,12 +276,15 @@ aside.site-offcanvas .klb-menu li:focus {
 .icon-solmedicven-Gastroenterologa:before {
   content: "\e900";
 }
+
 .icon-solmedicven-Ginecologa:before {
   content: "\e908";
 }
+
 .icon-solmedicven-Neurologia:before {
   content: "\e909";
 }
+
 .icon-solmedicven-Neumologa:before {
   content: "\e90a";
 }
@@ -311,11 +319,10 @@ section .elementor-widget-container p {
 *
 ********/
 
-.single-product-wrapper .woocommerce-tabs .woocommerce-Tabs-panel--description > h2 {
+.single-product-wrapper .woocommerce-tabs .woocommerce-Tabs-panel--description>h2 {
   display: block !important;
 }
 
-
 .remark-important {
-  color:var(--color-theme-danger);
+  color: var(--color-theme-danger);
 }

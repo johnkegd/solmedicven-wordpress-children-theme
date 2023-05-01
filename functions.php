@@ -8,7 +8,7 @@
 
 function machic_child_enqueue_styles()
 {
-    wp_enqueue_style('child-custom', get_template_directory_uri() . '/style.css', null, null);
+    //wp_enqueue_style('child-custom', get_template_directory_uri() . '/style.css', null, null);
     // wp_enqueue_style('child-missed', get_template_directory_uri() . '/elementor.css', null, null);
 }
 function custom_libraries_activations_scripts()

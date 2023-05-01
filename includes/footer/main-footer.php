@@ -84,7 +84,6 @@ if ( ! function_exists( 'machic_main_footer_function' ) ) {
         <div class="container">
             <div class="row">
                 <div class="col">
-
                     <div class="site-details">
                         <div class="site-brand">
                             <a href="https://solmedicven.com" title="<?php bloginfo("name"); ?>">

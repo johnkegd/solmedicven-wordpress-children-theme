@@ -3,13 +3,15 @@
         <div class="site-offcanvas-row site-offcanvas-header">
             <div class="column left">
                 <div class="site-brand">
-                    <a href="<?php echo esc_url(home_url("/")); ?>" title="<?php bloginfo("name"); ?>">
+                    <a href="https://solmedicven.com" title="<?php bloginfo("name"); ?>">
                         <?php if (get_theme_mod('machic_logo_white')) { ?>
-                            <img src="<?php echo esc_url(wp_get_attachment_url(get_theme_mod('machic_logo_white'))); ?>" alt="<?php bloginfo("name"); ?>">
+                        <img src="<?php echo esc_url(wp_get_attachment_url(get_theme_mod('machic_logo_white'))); ?>"
+                            alt="<?php bloginfo("name"); ?>">
                         <?php } elseif (get_theme_mod('machic_logo_text')) { ?>
-                            <span class="brand-text"><?php echo esc_html(get_theme_mod('machic_logo_text')); ?></span>
+                        <span class="brand-text"><?php echo esc_html(get_theme_mod('machic_logo_text')); ?></span>
                         <?php } else { ?>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-light.png" alt="<?php bloginfo("name"); ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-light.png"
+                            alt="<?php bloginfo("name"); ?>">
                         <?php } ?>
                     </a>
                 </div><!-- site-brand -->
@@ -20,11 +22,11 @@
                 </div><!-- site-offcanvas-close -->
             </div><!-- column -->
             <?php if (strpos(home_url(), "test") !== false) { ?>
-                <a class="headerRibbon" href="<?php echo esc_url(home_url("/")); ?>">
-                    <div class="corner-ribbon test-ribbon">
-                        TEST
-                    </div>
-                </a>
+            <a class="headerRibbon" href="<?php echo esc_url(home_url("/")); ?>">
+                <div class="corner-ribbon test-ribbon">
+                    TEST
+                </div>
+            </a>
             <?php } ?>
         </div><!-- site-offcanvas-header -->
         <div class="site-offcanvas-row site-offcanvas-body">
@@ -34,14 +36,14 @@
 
                     <?php $sidebarmenu = get_theme_mod('machic_header_sidebar', '0'); ?>
                     <?php if ($sidebarmenu == '1') { ?>
-                        <nav class="site-menu vertical categories">
-                            <a href="#" class="all-categories">
-                                <div class="departments-icon"><i class="klbth-icon-menu"></i></div>
-                                <div class="departments-text"><?php esc_html_e('All Departments', 'machic'); ?></div>
-                                <div class="departments-arrow"><i class="klbth-icon-nav-arrow-down"></i></div>
-                            </a>
+                    <nav class="site-menu vertical categories">
+                        <a href="#" class="all-categories">
+                            <div class="departments-icon"><i class="klbth-icon-menu"></i></div>
+                            <div class="departments-text"><?php esc_html_e('All Departments', 'machic'); ?></div>
+                            <div class="departments-arrow"><i class="klbth-icon-nav-arrow-down"></i></div>
+                        </a>
 
-                            <?php
+                        <?php
                             wp_nav_menu(array(
                                 'theme_location' => 'sidebar-menu',
                                 'container' => '',
@@ -53,7 +55,7 @@
                                 'depth' => 0
                             ));
                             ?>
-                        </nav>
+                    </nav>
                     <?php } ?>
 
                     <nav class="site-menu vertical primary">
@@ -87,9 +89,9 @@
 
                     <div class="site-copyright">
                         <?php if (get_theme_mod('machic_copyright')) { ?>
-                            <p><?php echo machic_sanitize_data(get_theme_mod('machic_copyright')); ?></p>
+                        <p><?php echo machic_sanitize_data(get_theme_mod('machic_copyright')); ?></p>
                         <?php } else { ?>
-                            <p><?php esc_html_e('Copyright 2021.KlbTheme . All rights reserved', 'machic'); ?></p>
+                        <p><?php esc_html_e('Copyright 2021.KlbTheme . All rights reserved', 'machic'); ?></p>
                         <?php } ?>
                     </div><!-- site-copyright -->
 

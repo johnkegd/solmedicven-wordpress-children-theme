@@ -50,20 +50,23 @@
 
                     <div class="column align-center left">
                         <?php if (strpos(home_url(), "test") !== false) { ?>
-                            <a class="headerRibbon" href="<?php echo esc_url(home_url("/")); ?>">
-                                <div class="corner-ribbon test-ribbon">
-                                    TEST
-                                </div>
-                            </a>
+                        <a class="headerRibbon" href="<?php echo esc_url(home_url("/")); ?>">
+                            <div class="corner-ribbon test-ribbon">
+                                TEST
+                            </div>
+                        </a>
                         <?php } ?>
                         <div class="site-brand">
-                            <a href="<?php echo esc_url(home_url("/")); ?>" title="<?php bloginfo("name"); ?>">
+                            <a href="https://solmedicven.com" title="<?php bloginfo("name"); ?>">
                                 <?php if (get_theme_mod('machic_logo')) { ?>
-                                    <img src="<?php echo esc_url(wp_get_attachment_url(get_theme_mod('machic_logo'))); ?>" alt="<?php bloginfo("name"); ?>">
+                                <img src="<?php echo esc_url(wp_get_attachment_url(get_theme_mod('machic_logo'))); ?>"
+                                    alt="<?php bloginfo("name"); ?>">
                                 <?php } elseif (get_theme_mod('machic_logo_text')) { ?>
-                                    <span class="brand-text"><?php echo esc_html(get_theme_mod('machic_logo_text')); ?></span>
+                                <span
+                                    class="brand-text"><?php echo esc_html(get_theme_mod('machic_logo_text')); ?></span>
                                 <?php } else { ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" width="171" height="34" alt="<?php bloginfo("name"); ?>">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png"
+                                    width="171" height="34" alt="<?php bloginfo("name"); ?>">
                                 <?php } ?>
                             </a>
                         </div><!-- site-brand -->
@@ -143,11 +146,11 @@
 
     <div class="header-mobile hide-desktop">
         <?php if (strpos(home_url(), "test") !== false) { ?>
-            <a class="headerRibbon" href="<?php echo esc_url(home_url("/")); ?>">
-                <div class="corner-ribbon test-ribbon">
-                    TEST
-                </div>
-            </a>
+        <a class="headerRibbon" href="<?php echo esc_url(home_url("/")); ?>">
+            <div class="corner-ribbon test-ribbon">
+                TEST
+            </div>
+        </a>
         <?php } ?>
         <div class="header-wrapper">
             <div class="column left">
@@ -161,13 +164,15 @@
             </div><!-- column -->
             <div class="column center">
                 <div class="site-brand">
-                    <a href="<?php echo esc_url(home_url("/")); ?>" title="<?php bloginfo("name"); ?>">
+                    <a href="https://solmedicven.com" title="<?php bloginfo("name"); ?>">
                         <?php if (get_theme_mod('machic_logo')) { ?>
-                            <img src="<?php echo esc_url(wp_get_attachment_url(get_theme_mod('machic_logo'))); ?>" alt="<?php bloginfo("name"); ?>">
+                        <img src="<?php echo esc_url(wp_get_attachment_url(get_theme_mod('machic_logo'))); ?>"
+                            alt="<?php bloginfo("name"); ?>">
                         <?php } elseif (get_theme_mod('machic_logo_text')) { ?>
-                            <span class="brand-text"><?php echo esc_html(get_theme_mod('machic_logo_text')); ?></span>
+                        <span class="brand-text"><?php echo esc_html(get_theme_mod('machic_logo_text')); ?></span>
                         <?php } else { ?>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="<?php bloginfo("name"); ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png"
+                            alt="<?php bloginfo("name"); ?>">
                         <?php } ?>
                     </a>
                 </div><!-- site-brand -->

@@ -1,7 +1,6 @@
-<header id="masthead" class="site-header border-enable header-type1">
+<header id="masthead" class="site-header border-enable header-type3">
     <div class="header-desktop hide-mobile">
-
-        <div class="header-top dark border-disable">
+        <div class="header-top dark border-disable custom-color-dark">
             <div class="container">
                 <div class="header-wrapper">
 
@@ -44,7 +43,7 @@
             </div><!-- container -->
         </div><!-- header-top -->
 
-        <div class="header-main height-padding">
+        <div class="header-main height-padding custom-color-dark">
             <div class="container">
                 <div class="header-wrapper">
 
@@ -89,7 +88,7 @@
             </div><!-- container -->
         </div><!-- header-main -->
 
-        <div class="header-nav">
+        <div class="header-nav custom-color-dark">
             <div class="container">
                 <div class="header-wrapper">
                     <div class="column align-center left">
